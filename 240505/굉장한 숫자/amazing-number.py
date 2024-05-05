@@ -29,7 +29,7 @@ n = int(input())
 
 # print(n % 2 == 1 and n % 3 == 0 or n % 2 == 0 and a % 5 == 0) # 앗 이렇게 하면 true가 아닌 True로 출력돼서 틀린 거임 주의하기!!
 
-if n % 2 == 1 and n % 3 == 0 or n % 2 == 0 and a % 5 == 0:
+if n % 2 == 1 and n % 3 == 0 or n % 2 == 0 and n % 5 == 0:
     print('true')
 else:
     print('false')
