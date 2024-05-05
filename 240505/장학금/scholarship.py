@@ -5,6 +5,6 @@ mid, final = int(arr[0]), int(arr[1])
 if mid < 90 or final < 90:
     print(0)
 elif final >= 95:
-    print(10)
+    print(100000)
 elif final >= 90:
-    print(5)
+    print(50000)
