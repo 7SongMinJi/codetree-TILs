@@ -38,3 +38,5 @@ while True:
     cnt += 1
 
 print(cnt)
+
+# 처음에는 틀림! n == 1일 때 바로 break하고 cnt... 암튼 여러 테스트 케이스에 대해 잘 따져보기
