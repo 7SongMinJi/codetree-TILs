@@ -2,7 +2,7 @@ n = int(input())
 
 for i in range(n):
     for j in range(n):
-        if i == 0 or j == (n - 1):
+        if i == 0:
             print("*", end=" ")
         elif j % 2 == 1 and i <= j:
             print("*", end=" ")
