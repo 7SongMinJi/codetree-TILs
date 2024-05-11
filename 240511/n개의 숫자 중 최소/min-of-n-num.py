@@ -35,10 +35,12 @@ cnt = 1
 
 min_val = arr[0]
 
-for elem in arr:
+for elem in arr[1:]:
     if min_val > elem:
         min_val = elem
         cnt = 1
     elif min_val == elem:
         cnt += 1
 print(min_val, cnt)
+
+# // 아! 처음에 틀렸는데 그 이유가 arr 첫 번째 요소를 min으로 설정했으니까 비교는 두 번째 원소부터 해야하자나!
