@@ -18,3 +18,4 @@ for i in range(q):
     elif arr2[0] == 3:
         for j in range(arr2[1] - 1, arr2[2]):
             print(arr[j], end=" ")
+        print()
