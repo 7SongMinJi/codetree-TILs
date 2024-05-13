@@ -5,7 +5,7 @@ temp = -1
 max_val = arr[0]
 overlap = list()
 
-for i in range(n):
+for i in range(1, n):
     if max_val < arr[i] and arr[i] not in overlap:
         temp, max_val = max_val, arr[i]
     elif max_val == arr[i]:
