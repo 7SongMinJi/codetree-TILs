@@ -15,5 +15,5 @@ while True:
 
     if max_idx == 0:
         break
-        
-    i = max_idx - 1
+
+    i = max_idx
