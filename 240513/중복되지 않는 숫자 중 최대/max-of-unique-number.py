@@ -26,12 +26,12 @@ arr = list(map(int, input().split()))
 duplicates=[]
 
 for elem in arr:
-    if arr.count(elem) > 1 and elem not in arr:
+    if arr.count(elem) > 1 and elem not in duplicates:
         duplicates.append(elem)
 
 max_val = -1
 for elem in arr:
-    if max_val < elem and max_val not in duplicates:
+    if max_val < elem and elem not in duplicates:
         max_val = elem
 
 print(max_val)
