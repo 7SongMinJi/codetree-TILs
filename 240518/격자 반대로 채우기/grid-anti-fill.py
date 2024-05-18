@@ -21,3 +21,6 @@ for row in arr_2d:
     for elem in row:
         print(elem, end=" ")
     print()
+
+
+# 정답 코드
