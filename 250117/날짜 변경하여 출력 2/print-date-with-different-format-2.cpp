@@ -38,22 +38,22 @@
 
 // // <문제: 날짜 변경하여 출력 2>
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int y, m, d;
+int main() {
+    int y, m, d;
 
-//     cin >> m;
-//     cin.get();
-//     cin >> d;
-//     cin.get();
-//     cin >> y;
+    cin >> m;
+    cin.get();
+    cin >> d;
+    cin.get();
+    cin >> y;
 
-//     cout << y << "." << m << "." << d;
-//     return 0;
+    cout << y << "." << m << "." << d;
+    return 0;
 
-// }
+}
 
 // <정답>
 
